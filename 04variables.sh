@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #this is a declaring of variable
-PERSON1=honey
-PERSON2=chandu
+PERSON1=$1
+PERSON2=$2
 
 #thus is a refering variable 
 echo "$PERSON1 :: hey hai $PERSON2"

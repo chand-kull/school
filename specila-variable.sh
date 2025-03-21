@@ -11,3 +11,4 @@ echo "process id of the corrent shall script $$"
 sleep 60
 echo "process id of last background command ; $!"
 
+echo " exit status $?"

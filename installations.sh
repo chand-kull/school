@@ -14,5 +14,19 @@ dnf instll mysql -y
  then 
     echo "installation of mysql...FAILURE"
     exit 1
+else
+    echo "installation of mysql...SUCCESS"
  fi
 
+dnf install git -y
+
+ if [ $? -ne 0]
+ then 
+    echo "installation of mysql...FAILURE"
+    exit 1
+
+else
+    echo "installation of git...SUCCESS"    
+ fi
+
+echo "is scripting proceding?"

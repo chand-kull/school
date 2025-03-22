@@ -10,23 +10,23 @@ echo " you are super user."
 fi
 
 dnf instll mysql -y
- if [ $? -ne 0]
- then 
+if [ $? -ne 0]
+then 
     echo "installation of mysql...FAILURE"
     exit 1
 else
     echo "installation of mysql...SUCCESS"
- fi
+fi
 
 dnf install git -y
 
- if [ $? -ne 0]
- then 
+if [ $? -ne 0]
+then 
     echo "installation of mysql...FAILURE"
     exit 1
 
 else
     echo "installation of git...SUCCESS"    
- fi
+fi
 
 echo "is scripting proceding?"

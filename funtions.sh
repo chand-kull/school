@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-USERID=$(id -d)
+USERID=$(id -u)
 
 VALIDATE(){
     echo "Ecit status:$1"

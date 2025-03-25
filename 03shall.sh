@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #this is a declaring of variable
-PERSON1=honey
+PERSON1=pavan
 PERSON2=chandu
 
 #thus is a refering variable 

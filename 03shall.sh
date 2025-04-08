@@ -4,7 +4,7 @@
 PERSON1=pavan
 PERSON2=chandu
 
-#thus is a refering variable 
+#this is a refering variable 
 echo "$PERSON1 :: hey hai $PERSON2"
 echo "$PERSON2 :: hey hai $PERSON1 how are you " 
 echo "$PERSON1 :: i am good $PERSON2 what about you"
